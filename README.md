@@ -1,6 +1,8 @@
 # Simpltask
 
-![Simpltask preview](assets/simpltask-preview.png)
+<p align="center">
+  <img src="simpltask-preview.png" alt="Simpltask preview" width="1000">
+</p>
 
 Simpltask — компактная Windows-утилита быстрого доступа к часто используемым файлам и папкам.
 
