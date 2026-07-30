@@ -1,0 +1,6 @@
+# Release binaries are attached to GitHub Releases.
+*.exe
+*.msi
+*.zip
+*.sha256.txt
+ReleaseAssets/
