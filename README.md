@@ -1,5 +1,9 @@
 # Simpltask
 
+[![Latest Release](https://img.shields.io/github/v/release/AdamAnomatik/Simpltask-Releases?label=Latest%20Release)](https://github.com/AdamAnomatik/Simpltask-Releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/AdamAnomatik/Simpltask-Releases/total?label=Downloads)](https://github.com/AdamAnomatik/Simpltask-Releases/releases)
+[![Windows](https://img.shields.io/badge/Platform-Windows-0078D4)](https://github.com/AdamAnomatik/Simpltask-Releases/releases/latest)
+
 <p align="center">
   <img src="simpltask-preview.png" alt="Simpltask preview" width="1000">
 </p>
