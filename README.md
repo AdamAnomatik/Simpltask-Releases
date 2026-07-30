@@ -1,5 +1,7 @@
 # Simpltask
 
+![Simpltask preview](assets/simpltask-preview.png)
+
 Simpltask — компактная Windows-утилита быстрого доступа к часто используемым файлам и папкам.
 
 ## Скачать
