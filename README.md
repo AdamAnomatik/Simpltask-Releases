@@ -1,52 +1,94 @@
 # Simpltask
 
-[![Latest Release](https://img.shields.io/github/v/release/AdamAnomatik/Simpltask-Releases?label=Latest%20Release)](https://github.com/AdamAnomatik/Simpltask-Releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/AdamAnomatik/Simpltask-Releases/total?label=Downloads)](https://github.com/AdamAnomatik/Simpltask-Releases/releases)
-[![Windows](https://img.shields.io/badge/Platform-Windows-0078D4)](https://github.com/AdamAnomatik/Simpltask-Releases/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/AdamAnomatik/Simpltask-Releases?label=Последняя%20версия)](https://github.com/AdamAnomatik/Simpltask-Releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/AdamAnomatik/Simpltask-Releases/total?label=Загрузки)](https://github.com/AdamAnomatik/Simpltask-Releases/releases)
+[![Windows](https://img.shields.io/badge/Платформа-Windows-0078D4)](https://github.com/AdamAnomatik/Simpltask-Releases/releases/latest)
+
+**Русский** · [English](README.en.md)
 
 <p align="center">
-  <img src="simpltask-preview.png" alt="Simpltask preview" width="1000">
+  <img src="simpltask-preview.png" alt="Предварительный просмотр Simpltask" width="1000">
 </p>
 
-Simpltask — компактная Windows-утилита быстрого доступа к часто используемым файлам и папкам.
+**Simpltask** — компактная Windows-утилита для быстрого доступа к часто используемым файлам и папкам прямо с панели задач.
 
-## 📥 Скачать
+## Возможности
 
-Последняя стабильная версия Simpltask доступна в разделе **Releases**.
+- Быстрый доступ к файлам и папкам из компактного Launcher.
+- Добавление элементов через Simpltask Manager.
+- Перетаскивание файлов и папок мышью.
+- Изменение порядка элементов.
+- Глобальная настраиваемая горячая клавиша.
+- Светлая, тёмная и системная темы.
+- Настройка прозрачности Launcher, Manager и окна настроек.
+- Выбор языка интерфейса: **Системный**, **Русский** или **English**.
+- Поддержка нескольких мониторов.
+- Сохранение списка элементов и пользовательских настроек между обновлениями.
 
-➡️ **[Перейти к загрузке последней версии](https://github.com/AdamAnomatik/Simpltask-Releases/releases/latest)**
+## Скачать
+
+Последняя стабильная версия доступна в разделе **Releases**.
+
+➡️ **[Скачать последнюю версию Simpltask](https://github.com/AdamAnomatik/Simpltask-Releases/releases/latest)**
 
 ### Что скачать
 
-- **Simpltask-Setup-x.y.z.exe** — установщик приложения.
-- **Simpltask-Setup-x.y.z.sha256.txt** — контрольная сумма SHA-256 для проверки целостности загрузки.
+- `Simpltask-Setup-x.y.z.exe` — установщик приложения.
+- `Simpltask-Setup-x.y.z.sha256.txt` — контрольная сумма SHA-256 для проверки загруженного файла.
 
-### Обновление
+## Системные требования
 
-Установщик можно запускать поверх предыдущей версии.  
+- 64-разрядная Windows 11.
+- Закрепление приложения на панели задач выполняется один раз после установки.
+
+## Установка
+
+1. Скачайте последний файл `Simpltask-Setup-x.y.z.exe`.
+2. Запустите установщик.
+3. После первого запуска закрепите Simpltask на панели задач.
+4. Нажмите закреплённый значок, чтобы открыть Launcher.
+
+## Обновление
+
+Новый установщик можно запускать поверх предыдущей версии.
+
 Список элементов и пользовательские настройки сохраняются.
 
-### Проверка файла
+## Где хранятся данные
 
-После загрузки рекомендуется сверить SHA-256 установщика с опубликованным файлом контрольной суммы.
+Пользовательские данные хранятся локально:
 
-## Основные возможности
+```text
+%LOCALAPPDATA%\Simpltask
+```
 
-- Launcher с панели задач;
-- работа на нескольких мониторах;
-- настраиваемая глобальная горячая клавиша;
-- Manager с drag-and-drop;
+Simpltask не требует учётной записи и не отправляет список ваших файлов и папок на удалённый сервер.
 
-## Данные пользователя
+## Проверка SHA-256
 
-Настройки и список элементов хранятся в:
+После загрузки установщика можно проверить его контрольную сумму в PowerShell:
 
-`%LOCALAPPDATA%\Simpltask`
+```powershell
+Get-FileHash .\Simpltask-Setup-x.y.z.exe -Algorithm SHA256
+```
 
-При обычном обновлении и удалении приложения они сохраняются.
+Полученное значение должно совпадать с опубликованным файлом `Simpltask-Setup-x.y.z.sha256.txt`.
 
-## Лицензия
+## Сообщить об ошибке
 
-© 2026 EmDiSoftware. Все права защищены.
+Обнаружили проблему или хотите предложить улучшение?
 
-Simpltask является закрытым программным обеспечением. Публичный репозиторий не предоставляет исходный код приложения.
+➡️ **[Создать обращение](https://github.com/AdamAnomatik/Simpltask-Releases/issues/new/choose)**
+
+При описании ошибки укажите:
+
+- версию Simpltask;
+- версию Windows;
+- шаги для воспроизведения;
+- скриншот, если он помогает понять проблему.
+
+## Лицензия и исходный код
+
+Simpltask распространяется как закрытое программное обеспечение.
+
+Этот репозиторий используется для публикации установщиков, примечаний к выпускам и сбора сообщений об ошибках.
