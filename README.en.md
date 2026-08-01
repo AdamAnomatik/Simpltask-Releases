@@ -87,8 +87,6 @@ Please include:
 - steps to reproduce the issue;
 - a screenshot when it helps explain the problem.
 
-## License and source code
-
-Simpltask is distributed as closed-source software.
-
-This repository is used to publish installers, release notes, and issue reports.
+![Language](https://img.shields.io/badge/Language-C%23-512BD4?logo=csharp&logoColor=white)
+![Framework](https://img.shields.io/badge/Framework-.NET-512BD4?logo=dotnet&logoColor=white)
+![UI](https://img.shields.io/badge/UI-WPF-0078D4)
