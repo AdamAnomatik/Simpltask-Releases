@@ -87,8 +87,6 @@ Get-FileHash .\Simpltask-Setup-x.y.z.exe -Algorithm SHA256
 - шаги для воспроизведения;
 - скриншот, если он помогает понять проблему.
 
-## Лицензия и исходный код
-
-Simpltask распространяется как закрытое программное обеспечение.
-
-Этот репозиторий используется для публикации установщиков, примечаний к выпускам и сбора сообщений об ошибках.
+![Language](https://img.shields.io/badge/Language-C%23-512BD4?logo=csharp&logoColor=white)
+![Framework](https://img.shields.io/badge/Framework-.NET-512BD4?logo=dotnet&logoColor=white)
+![UI](https://img.shields.io/badge/UI-WPF-0078D4)
